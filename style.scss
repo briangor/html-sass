@@ -1,0 +1,139 @@
+@import 'fonts';
+@import 'colors';
+
+@mixin sizes($font: 24px, $height: 16px) {
+    font-size: $font;
+    line-height: $height;
+}
+
+* {
+    font-family: $primary-fonts;
+}
+
+body {
+    width: 58%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.site-title {
+    @include sizes($font: 24px, $height: 36px);
+    font-weight: 700;
+}
+
+.nav {
+    @include sizes($font: 16px, $height: 24px);
+    margin-bottom: 40px;
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    a {
+        font-family: $secondary-fonts;
+    }
+
+    .active {
+        color: $secondary-blue;
+    }
+}
+
+a {
+    color: $primary-blue;
+    text-decoration: none;
+
+    &:hover {
+        color: $secondary-blue;
+    }
+}
+
+.title {
+    margin-bottom: 0;
+    line-height: 36px;
+}
+
+.subtitle {
+    @include sizes($font: 16px, $height: 24px);
+    font-family: $accent-fonts;
+    font-style: italic;
+    color: $secondary-dark;
+    font-weight: 100;
+    margin-top: 5px;
+
+    #date {
+        color: $primary-blue;
+        font-family: $accent-fonts;
+        font-weight: 400;
+    }
+}
+
+p {
+    @include sizes($font: 19.2px, $height: 28.8px);
+    font-family: $accent-fonts;
+    color: $primary-dark;
+    font-weight: 400;
+}
+
+#endnote {
+    font-family: $volkorn;
+    font-style: oblique;
+    letter-spacing: 0;
+    margin-bottom: 60px;
+
+    a {
+        @include sizes($font: 19.2px, $height: 28.8px);
+        font-family: $volkorn;
+    }
+}
+
+.blogs {
+    @include sizes($font: 16px, $height: 24px);
+    margin-top: 60px;
+
+    h5 {
+        @include sizes($font: 16px, $height: 24px);
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-family: $secondary-fonts;
+        margin: 0;
+    }
+}
+
+.links {
+    margin: 60px 0;
+
+    li {
+        display: inline;
+        margin-right: 20px;
+    }
+}
+
+#backtotop {
+    color: $green;
+    text-decoration: underline;
+}
+
+.copyrights {
+    font-size: 14px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none;
+    height: 500px;
+    width: 600px;
+}

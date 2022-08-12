@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "volkorn";
+  src: url("../fonts/vollkorn.italic.ttf");
+}
+* {
+  font-family: "IBM Plex Sans", Helvetica, sans-serif;
+}
+
+body {
+  width: 58%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.site-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.nav {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.nav ul {
+  padding: 0;
+}
+.nav li {
+  display: inline;
+  margin-right: 10px;
+}
+.nav a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav .active {
+  color: #63adf2;
+}
+
+a {
+  color: #82a0bc;
+  text-decoration: none;
+}
+a:hover {
+  color: #63adf2;
+}
+
+.title {
+  margin-bottom: 0;
+  line-height: 36px;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Vollkorn", sans-serif;
+  font-style: italic;
+  color: #999999;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.subtitle #date {
+  color: #82a0bc;
+  font-family: "Vollkorn", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 19.2px;
+  line-height: 28.8px;
+  font-family: "Vollkorn", sans-serif;
+  color: #555555;
+  font-weight: 400;
+}
+
+#endnote {
+  font-family: "volkorn";
+  font-style: oblique;
+  letter-spacing: 0;
+  margin-bottom: 60px;
+}
+#endnote a {
+  font-size: 19.2px;
+  line-height: 28.8px;
+  font-family: "volkorn";
+}
+
+.blogs {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 60px;
+}
+.blogs h5 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.blogs p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.links {
+  margin: 60px 0;
+}
+.links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#backtotop {
+  color: seagreen;
+  text-decoration: underline;
+}
+
+.copyrights {
+  font-size: 14px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none;
+  height: 500px;
+  width: 600px;
+}
+
+/*# sourceMappingURL=style.css.map */

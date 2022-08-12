@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "volkorn";
+    src: url("../fonts/vollkorn.italic.ttf")
+}
+
+$primary-fonts: 'IBM Plex Sans', Helvetica, sans-serif;
+$secondary-fonts: Arial, Helvetica, sans-serif;
+$accent-fonts: 'Vollkorn', sans-serif;
+$volkorn: 'volkorn';
