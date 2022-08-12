@@ -1,3 +1,4 @@
+@use "sass:math";
 @import 'fonts';
 @import 'colors';
 
@@ -11,7 +12,7 @@
 }
 
 body {
-    width: 58%;
+    width: math.div(600px, 1034px) * 100%;
     margin: auto;
     margin-top: 30px;
 }
@@ -137,3 +138,5 @@ p {
     height: 500px;
     width: 600px;
 }
+
+@debug not true;
