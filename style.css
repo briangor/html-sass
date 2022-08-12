@@ -88,8 +88,6 @@ p {
 }
 
 .blogs {
-  font-size: 16px;
-  line-height: 24px;
   margin-top: 60px;
 }
 .blogs h5 {
@@ -98,6 +96,8 @@ p {
   margin-bottom: 10px;
 }
 .blogs p {
+  font-size: 16px;
+  line-height: 24px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
